@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/futura-renner" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="static/styles.css">
+        <title>Lifespan Calculator!</title>
+        <style>
+            .questions{
+                font-family: 'FuturaRennerRegular'; 
+                font-style: italic; 
+            }
+            body{
+                background-image: linear-gradient(0deg,DeepSkyBlue, white);;
+            }
+            
+            
+            
+            
+            
+            
+        
+        </style>
+    </head>
+    <body>
+        <h1>Lifespan Calculator</h1>
+        <p>Are you at risk?! Are you aware of things that hinder your lifespan!?</p>
+        <form action="lifespan.html" method="POST">
+            <div class="questions"> Please enter infomation about yourself:</div><br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            
+            <hr>
+          
+            <div class="questions">Enter age:</div><br>
+            <input type="radio" name="age" value="30"> 0 - 30<br>
+            <input type="radio" name="age" value="60"> 31 - 60<br>
+            <input type="radio" name="age" value="100"> 61 - 100<br>
+           
+            <hr>
+            
+            <div class="questions">How active are you?</div><br>
+            <input type="radio" name="activity" value="Yes">Yes<br>
+            <input type="radio" name="activity" value="No"> No<br>
+            <input type="radio" name="activity" value="Occasionally"> Occasionally<br>
+          
+            <hr>
+           
+             <div class="questions">Enter height:</div><br>
+            <input type="radio" name="height" value="short">Short<br>
+            <input type="radio" name="height" value="average">Average<br>
+            <input type="radio" name="height" value="tall">Tall<br>
+            
+            <hr>
+           
+            <div class="questions"> Enter a range of your weight:</div> <br>
+            <input type="radio" name="weight" value="underweight">Underweight<br>
+            <input type="radio" name="weight" value="average">Average<br>
+            <input type="radio" name="weight" value="overweight">Overweight<br>
+            <input type="radio" name="weight" value="obese">Obese<br>
+            <hr>
+            
+            
+            <div class="questions">Do you have a history of medical complications?:</div> <br>
+            <input type="radio" name="health" value="yes">Yes<br>
+            <input type="radio" name="health" value="no"> No<br>
+            <input type="radio" name="health" value=unsure> Unsure<br>
+            <hr>
+            
+             <div class="questions">Do you take controlled substances?</div>: <br>
+            <input type="radio" name="drugs" value="Yes">Yes<br>
+            <input type="radio" name="drugs" value="No">No<br>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+    </body>
+    <footer>
+        Inari Edwards | Fredy Cortezano
+        
+    </footer>
+</html>
